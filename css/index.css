@@ -17,6 +17,7 @@
 
 body  {
     font-family: 'Myriad Pro';
+    margin: 0;
 }
 
 /* HEADER - Top Bar */
@@ -25,8 +26,127 @@ body  {
     margin: 0 auto;
 }
 
+.header-topbar {
+    padding: 24px 0 19px 0;
+}
+
+.topbar-logo-box {
+    float: left;
+}
+
 .topbar-logo-text {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     margin-left: 15px;
+    font-size: 42px;
+    letter-spacing: 0.42px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.topbar-menu-box {
+    float: right;
+}
+
+.topbar-menu {
+    list-style-type: none;
+}
+
+.topbar-menu-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.topbar-menu-item:last-child {
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.topbar-menu-item-link {
+    color: #6c6c6c;
+    letter-spacing: 0.2px;
+    padding-bottom: 33px;
+}
+
+.topbar-menu-item-link:hover {
+    border-bottom: 2px solid #5094f2;
+}
+
+/* for HEADER Top Bar Menu Links and MAIN Items Links */
+.style-links {
+    font-size: 20px;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+.style-links:hover {
+    color: #5094f2;
+}
+
+/* HEADER - Banner */
+.header-banner {
+    background-image: url('../img/bg-image-clear.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 38px 0 16px 0;
+    text-align: center;
+}
+
+.banner-text-box {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 104px;
+    width: 392px;
+    text-align: left;
+    margin-top: 115px;
+}
+
+.banner-text {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 44.42px;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-text-line {
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 45px;
+}
+
+.banner-link-box {
+    display: inline-block;
+    padding: 12px 11px 9px 23px;
+    background-color: #5094f2;
+    border-radius: 3px;
+    margin: 36px 0 0 12px;
+}
+
+.icon-box {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.link-box {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.link {
+    font-size: 22px;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    color: #fff;
+}
+
+.link:hover {
+    color: #6c6c6c;
 }
