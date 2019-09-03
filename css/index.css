@@ -11,4 +11,22 @@
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
 
+body  {
+    font-family: 'Myriad Pro';
+}
+
+/* HEADER - Top Bar */
+.content-frame {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.topbar-logo-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
