@@ -150,3 +150,84 @@ body  {
 .link:hover {
     color: #6c6c6c;
 }
+
+/* MAIN - Items Section*/
+.main {
+    padding: 57px 0 50px 0;
+}
+
+.item-box {
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+    width: 248px;
+}
+
+.item:nth-child(2) {
+    margin: 0 134px;
+}
+
+.item-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.item-text-box {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.item-link {
+    font-size: 20px;
+    line-height: 44.42px;
+    color: #5094f2;
+    text-decoration: none;
+}
+
+.item-text {
+    font-size: 14px;
+    color: #909090;
+    margin: 0;
+}
+
+/* MAIN - Shopping Section */
+.shopping-box {
+    margin-top: 94px;
+}
+
+.cart-box {
+    float: left;
+    margin-left: 45px;
+    width: 371px;
+    text-align: center;
+}
+
+.cart-title {
+    font-size: 42px;
+    line-height: 44.42px;
+    color: #6f7173;
+    margin-bottom: 35px;
+}
+
+.bullet-text-box {
+    float: right;
+    width: 451px;
+    margin-right: 75px;
+    margin-top: 99px;
+}
+
+.bullet-title {
+    font-size: 26px;
+    line-height: 44.42px;
+    color: #6f7173;
+    margin: 0;
+}
+
+.bullet-text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #909090;
+}
