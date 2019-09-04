@@ -30,6 +30,7 @@ body  {
     padding: 24px 0 19px 0;
 }
 
+/* Top Bar - Logo */
 .topbar-logo-box {
     float: left;
 }
@@ -45,6 +46,7 @@ body  {
     margin-bottom: 0;
 }
 
+/* Top Bar - Menu */
 .topbar-menu-box {
     float: right;
 }
@@ -129,6 +131,7 @@ body  {
     margin: 36px 0 0 12px;
 }
 
+/* Banner sign up link */
 .icon-box {
     display: inline-block;
     vertical-align: top;
@@ -194,6 +197,7 @@ body  {
 }
 
 /* MAIN - Shopping Section */
+/* MAIN - Shopping Section - Cart */
 .shopping-box {
     margin-top: 94px;
 }
@@ -212,6 +216,7 @@ body  {
     margin-bottom: 35px;
 }
 
+/* MAIN - Shopping Section - Text */
 .bullet-text-box {
     float: right;
     width: 451px;
