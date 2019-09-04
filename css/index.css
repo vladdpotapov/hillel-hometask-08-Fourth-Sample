@@ -231,3 +231,16 @@ body  {
     line-height: 30px;
     color: #909090;
 }
+
+/* FOOTER */
+.footer {
+    padding: 34px 0 45px 0;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-copyrights {
+    font-size: 15px;
+    line-height: 36px;
+    color: #909090;
+}
